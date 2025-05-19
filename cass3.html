@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<head>
+  
+  <title>Product Description</title>
+  <style>
+    header{
+                height: 10vh;
+                display: flex;
+                position: sticky;
+                top:0;
+            }
+            header, footer{
+                
+                background-color: #82614A;
+            }
+
+           
+                               
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                background-color: #DAC09B;
+            }
+
+            .logo{
+                height: 30px;
+                width: 30px;
+                margin: 10px;
+            }
+            @font-face {
+                font-family: firstfont;
+                src: url(Inter-Bold.woff);
+                font-weight: bold;
+            }
+
+            @font-face {
+                font-family: secondfont;
+                src: url(Inter-Regular.woff);
+            }
+            .nav a{
+                font-family: firstfont;
+                position: relative;
+                left: 175%;
+                top: 20px;
+                color: white;
+                text-decoration: none;
+                margin-right: 20px;
+                font-size: 16px;
+                text-align:left;
+
+            }
+
+            .nav2 a{
+                font-family: secondfont;
+                position: relative;
+                color: white;
+                top: 20px;
+                margin-left: 20px;
+            }
+            body {
+           margin: 0;
+             background-color: #fdfdfd;
+            }
+
+          .logo{
+                height: 40px;
+                width: 40px;
+                margin: 10px;
+            }
+  
+
+    .section {
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 20px;
+      border-style:solid;
+      border-color:#82614A;
+      box-shadow: 3px 3px 10px rgb(0, 0, 0);
+      border-radius: 20px;
+    }
+
+    .section img {
+      flex: 1;
+      min-width: 300px;
+      background-color: #9f825b;
+      height: 600px;
+      border-radius: 20px;
+      justify-self: center;
+    }
+
+    .text-content {
+      flex: 2;
+      min-width: 250px;
+      margin-left: 5%;
+      
+    }
+
+    .text-content.features{
+      margin-left:40px;
+    }
+    @font-face {
+        font-family: h2;
+        src: url(Montserrat-ExtraBold.woff);
+    }
+    h2 {
+        margin:0;   
+      font-family: h2;
+      font-size: 50px;
+      color: #111;
+      
+    }
+
+    .section.description{
+      background-color: #dac09b;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      bottom: 0;
+      text-align: left;
+      background-color: #82614A;
+      height:10vh;
+    }
+
+    .foot{
+        font-family: secondfont;
+        padding-top:20px;
+        color:white;
+        font-size: 17px ;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .font{
+        font-family: secondfont;
+        font-size:25px;
+        margin: 20px;
+        line-height: 2;
+        text-align: justify ;
+        margin-top: 7%;
+        padding-right:7%;
+        
+    }
+.section.care{
+  background-color: #DAC09B;
+}
+
+.section.features{
+  background-color: white ;
+
+}
+ 
+.bg{
+                position: fixed;
+                z-index: -1;
+                bottom:0;
+                left:0;
+                width: 100%;
+                    height: 200%;
+                opacity: .7;
+            }
+  
+.bold{
+  font-family: firstfont;
+  margin-top: 5%;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="cass.png" class="logo">
+    <div class="nav">
+    <a href="CASS1.html" >HOME</a>
+    <a href="cass2.html" >ABOUT US</a>
+    <a href="cass3.html" >ABOUT PRODUCT</a>
+    <a href="cass4.html" >CONTACT US</a>
+    </div>
+  </header>
+  
+  <img src="background1.jfif" class="bg">
+  <section class="section description">
+    <img src="descrip.png">
+    <div class="text-content">
+      <h2>PRODUCT DESCRIPTION</h2>
+      <div class="font">
+      <p>
+        The Adjustable Storage Shelf is a customizable furniture piece that offers versatility and flexibility.
+        Featuring modular adjustable sections, smooth sliding mechanisms, and a lightweight assembly structure, it is ideal for small spaces.
+      </p>
+      <ul>
+        <p class="bold">Key Points:</p>
+        <li>Space-saving design</li>
+        <li>Adjustable shelves for various needs</li>
+        <li>Easy assembly and disassembly</li>
+      </ul>
+      </div>
+    </div>
+  
+  </section>
+
+  <section class="section features">
+    <div class="text-content features">
+      <h2>FEATURES</h2>
+      <div class="font" style="align-items:  right;">
+      <ul>
+        <li>Adjustable Storage Levels: Customize the height and layout.</li>
+        <li>Compact Design: Perfect for tight spaces such as dormitories and apartments.</li>
+        <li>Durable Materials: Combines both high-quality, eco-friendly boards with scratch-resistant coating.</li>
+        <li>Smooth Sliding Mechanism: Easy to roll and reposition shelf components.</li>
+        <li>Portability: Lightweight structure for easy transport.</li>
+      </ul>
+      </div>
+      </div>    
+    </div>
+    <img src="features.jpg"/>
+  </section>
+
+  <section class="section care">
+    <img src="care.jpg" />
+    <div class="text-content">
+      <div class="font">
+      <h2>CARE TIPS</h2>
+      <ul style="margin-top: 20px;">
+        <li>Clean with a soft dry cloth. Avoid harsh chemicals.</li>
+        <li>Tighten bolts and screws periodically for durability.</li>
+        <li>Avoid exposing to excessive moisture or humidity.</li>
+        <li>For reliable long-term maintenance, apply a small amount of furniture polish monthly.</li>
+      </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot">© All Rights Reserved</div>
+  </footer>
+
+</body>
+</html>
